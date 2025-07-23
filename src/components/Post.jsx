@@ -56,9 +56,9 @@ export default function Post() {
         <img
           src={appwriteService.getFileView(post.featuredImg)}
           alt={post.title}
-          className="w-[65%] h-[35%] m-2 p-2 mt-1  border-12 border-emerald-100 bg-amber-50 drop-shadow-amber-50 rounded-2xl"
+          className="w-[65%] h-[35%] m-2 p-2 mt-1  border-5 border-emerald-100 bg-amber-50 drop-shadow-amber-50 rounded-2xl"
         />
-        <div className="w-[85%] h-[55%] bg-white rounded-3xl flex flex-col    overflow-y-scroll border-12 border-emerald-100">
+        <div className="w-[85%] h-[55%] bg-white rounded-3xl flex flex-col    overflow-y-scroll border-5 border-emerald-100">
           <h2 className="text-center font-bold text-4xl mt-4 ">Ingredients</h2>
           <br />
 

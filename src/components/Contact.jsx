@@ -97,9 +97,6 @@ export default function Contact() {
           </div>
         </div>
       </div>
-
-      {/* Footer Section - Imported from Footer component */}
-      <Footer />
     </div>
   );
 }
