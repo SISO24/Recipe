@@ -16,11 +16,7 @@ export default function MexicanDishes() {
           key={idx}
           className="w-[30%] min-w-[250px] hover:scale-105 transition-transform duration-300  "
         >
-          <Card2
-            key={idx}
-            Cataegory={dish}
-            src={`/public/images/${dish}.jpg`}
-          />
+          <Card2 key={idx} Cataegory={dish} src={`/images/${dish}.jpg`} />
         </div>
       ))}
     </div>

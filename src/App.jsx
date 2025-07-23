@@ -29,13 +29,13 @@ function Home() {
     <>
       <Header />
       <div className="flex justify-evenly">
-        <Card src="\public\Indian_food.jpg" title="Indian Cuisiene" />
+        <Card src="\Indian_food.jpg" title="Indian Cuisiene" />
         <Card
-          src="\public\orijit-chatterjee-wEBg_pYtynw-unsplash.jpg"
+          src="\orijit-chatterjee-wEBg_pYtynw-unsplash.jpg"
           title="Chinese Cuisiene"
         />
-        <Card src="\public\italian_food.jpg" title="Italian Cuisiene" />
-        <Card src="\public\Mexican_food.jpg" title="Mexican Cuisiene" />
+        <Card src="\italian_food.jpg" title="Italian Cuisiene" />
+        <Card src="\Mexican_food.jpg" title="Mexican Cuisiene" />
       </div>
       <PersonalizedIntro />
       <Footer />
