@@ -1,12 +1,47 @@
-# React + Vite
+# 🍽️ Recipe App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern recipe web application that allows users to browse their favorite dishes, discover detailed recipes, and create their own custom dishes — all powered by Appwrite and built with React.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 🔍 **Browse Recipes** – Search and explore a variety of recipes.
+- 📝 **Create Your Own Dish** – Add and manage your own unique recipes.
+- 🔐 **Authentication** – Login and Signup functionality with secure Appwrite backend.
+- ⚙️ **Real-time Backend** – Appwrite for user authentication, data storage, and backend services.
+- 💡 **Modern Frontend** – Built using **React** for a smooth and dynamic user experience.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend**: React, HTML, CSS, JavaScript
+- **Backend as a Service**: [Appwrite](https://appwrite.io/)
+- **Authentication**: Appwrite Auth (Email/Password based)
+
+---
+
+## 🔧 Getting Started
+
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/SISO24/Recipe.git
+   cd Recipe
+Install dependencies:
+npm install
+
+Configure your Appwrite project:
+
+Create a new Appwrite project
+
+Setup authentication and database collections
+
+Add Appwrite configuration in .env:
+
+VITE_APPWRITE_PROJECT_ID=your_project_id
+VITE_APPWRITE_ENDPOINT=https://cloud.appwrite.io/v1
+VITE_APPWRITE_DATABASE_ID=your_db_id
+Run the app:
+
+npm run dev
