@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+body {
+  background-image: url("../public/pexels-fwstudio-33348-132197.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* Optional: for parallax effect */
+  image-rendering: auto; /* or 'crisp-edges' for pixelated images */
+  background-color: transparent; /* Ensure no overlay color */
+}
