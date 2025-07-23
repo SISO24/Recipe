@@ -80,12 +80,10 @@ export default function Cuisiene({ name }) {
   return (
     <div
       className="relative w-full h-64 bg-cover bg-center bg-no-repeat"
-      style={{ backgroundImage: "url('/public/bgforcuisiene.jpg')" }}
+      style={{ backgroundImage: "url('/bgforcuisiene.jpg')" }}
     >
-      {/* Dark overlay over only the background */}
       <div className="absolute inset-0 bg-black opacity-40 z-0"></div>
 
-      {/* Content on top of the darkened background */}
       <div className="relative z-10 flex flex-col justify-center items-center h-full text-white text-center px-4">
         <h1 className="text-4xl font-bold mb-8">Welcome to {name} Cuisine</h1>
         <div className="flex gap-4 items-center w-full max-w-2xl">
@@ -102,7 +100,7 @@ export default function Cuisiene({ name }) {
             onClick={handleSubmit}
           >
             <img
-              src="/public/search.png"
+              src="/search.png"
               className="w-6 h-6 object-contain"
               alt="search"
             />
